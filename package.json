@@ -1,0 +1,22 @@
+{
+  "name": "sum-metric-service",
+  "version": "1.0.0",
+  "description": "A metric logging and reporting service",
+  "main": "src/index.js",
+  "repository": "https://github.com/e3duardo/sum-metric-service",
+  "author": "Eduardo Santos <e3duardo@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
+  }
+}
