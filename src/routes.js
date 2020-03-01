@@ -1,6 +1,6 @@
 import { Router } from "express";
 
-import MetricController from "./controllers/MetricController";
+import MetricController from "./app/controllers/MetricController";
 
 const routes = new Router();
 

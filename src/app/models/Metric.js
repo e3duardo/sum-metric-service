@@ -2,7 +2,7 @@ class Metric {
   constructor(key, value) {
     this.key = key;
     this.value = Math.round(value);
-    this.createdAt = new Date();
+    this.createdAt = new Date(Date.now());
   }
 
   is(key) {

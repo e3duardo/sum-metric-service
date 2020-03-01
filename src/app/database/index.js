@@ -3,6 +3,9 @@ class Database {
     this.metrics = [];
   }
 
+  clean() {
+    this.metrics = [];
+  }
   addMetric(metric) {
     this._removeOldDate();
     this.metrics.push(metric);
